@@ -20,8 +20,8 @@ public class CustomerMapper {
 		customerentity.setEmail(customermodel.getEmail());
 		customerentity.setContactNo(customermodel.getContactNo());
 		customerentity.setDob(customermodel.getDob());
-		System.out.println("dob is :"+customermodel.getDob());
-		System.out.println("address mapper class  before set address");
+		
+		System.out.println("hello");
 		customerentity.setAddress(addressMapper.MapModelToEntity(customermodel.getAddressmodel()));
 		System.out.println("address was :"+ customermodel.getAddressmodel());
 		System.out.println("address mapper class  after set address");
